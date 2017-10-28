@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Test Suite">
+
+<test name="Admin Login Test">
+	<classes>
+		<class name="com.orangehrm.tests.AdminLoginTest"></class>
+	</classes>
+</test>
+
+<test name="New Employee Reg Test">
+	<classes>
+		<class name="com.orangehrm.tests.NewEmployeeRegTest"></class>
+	</classes>
+</test>
+
+<test name="New User Reg Test">
+	<classes>
+		<class name="com.orangehrm.tests.NewUserRegTest"></class>
+	</classes>
+</test>
+
+<test name="Employee Login Test">
+	<classes>
+		<class name="com.orangehrm.tests.EmployeeLoginTest"></class>
+	</classes>
+</test>
+</suite>
